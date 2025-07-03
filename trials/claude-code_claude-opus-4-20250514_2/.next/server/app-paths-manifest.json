@@ -1,0 +1,9 @@
+{
+  "/api/posts/route": "app/api/posts/route.js",
+  "/api/reset/route": "app/api/reset/route.js",
+  "/api/comments/route": "app/api/comments/route.js",
+  "/api/posts/[id]/route": "app/api/posts/[id]/route.js",
+  "/page": "app/page.js",
+  "/new-post/page": "app/new-post/page.js",
+  "/posts/[id]/page": "app/posts/[id]/page.js"
+}
