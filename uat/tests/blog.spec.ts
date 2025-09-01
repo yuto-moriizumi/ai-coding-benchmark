@@ -60,8 +60,9 @@ test.describe.serial("Blog app", () => {
   }: {
     page: Page;
   }) => {
-    // 記事ページに直接アクセス
-    await page.goto("http://localhost:3000/posts/1");
+    // トップページにアクセス
+    await page.goto("http://localhost:3000/");
+    await page.click("text=my new post");
 
     // "This is a great post!"というコメントが存在しないことを確認
     await expect(page.locator("body")).not.toContainText(
