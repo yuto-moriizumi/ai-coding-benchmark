@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "my new post",
+      "content": "my content",
+      "createdAt": 1756714346614
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "John Doe",
+      "content": "This is a great post!",
+      "createdAt": 1756714349723
+    }
+  ],
+  "nextPostId": 2,
+  "nextCommentId": 2
+}
