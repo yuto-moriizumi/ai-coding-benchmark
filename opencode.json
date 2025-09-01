@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "opencode",
+  "autoupdate": true,
+  "provider": {
+    "github-copilot/gpt-5": {
+      "options": {
+        "reasoningEffort": "high",
+        "textVerbosity": "low",
+        "reasoningSummary": "auto",
+        "include": ["reasoning.encrypted_content"]
+      }
+    }
+  }
+}
